@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="./tweetHandler.js"></script>
+
+<head>
+    <title>About Me</title>
+</head>
+
+<body style="text-align: center;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./mypage_bootstrap.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=".signup-modal/login.html">Sign Up Modal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./tic-tac-toe/tic-tac-toe.html">Tic Tac Toe</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h3>
+        Haroon, Umar
+        <small class="text-muted">Software Development Methods and Tools</small>
+        </h1>
+        <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+                <p class="text-muted">I used to play guitar, I play soccer, and I'm hoping to go to med school. I'm
+                    studying
+                    CS because I want a viable
+                    degree before Med School just in case</p>
+            </div>
+        </div>
+        <h2>My Professional Profile</h2>
+        <a class="btn btn-primary" href="https://github.com/Umar-M-Haroon" style="color: white;"
+            role="button">Github</a>
+        <br>
+        <img src="./ME.JPG" width="500" height="500" alt="Personal Profile" style="border-radius: 50%;"></img>
+        <h3>My Favorite Projects</h3>
+        <table style="align-items: center;text-align: center;width: 100%;" class="table">
+            <tr>
+                <th scope="col">Name Of Project</th>
+                <th scope="col">Tech Used</thead>
+            </tr>
+            <tr>
+                <td>Raspberry Pi Lamp</td>
+                <td>Python, arduino, Raspberry Pi</td>
+            </tr>
+            <tr>
+                <td>Final Grade Calculator</td>
+                <td>Swift</td>
+            </tr>
+            <tr>
+                <td>My other personal website</td>
+                <td>HTML, CSS, ReactJS</td>
+            </tr>
+        </table>
+        <h3>Interests</h3>
+        <a class="btn btn-primary" href="./form.html" role="button">Add Interest</a>
+        <div class="card-group">
+            <div class="card" id="interest1">
+                <img src="./soccer.jpg" class="card-img-top" alt="Soccer Ball" style="aspect-ratio: 1;">
+                <div class="card-body">
+                    <button onclick="addCard('interest1')">Test</button>
+                    <p class="card-text">Soccer</p>
+                </div>
+            </div>
+            <div class="card" id="interest2">
+                <img src="./music.jpg" class="card-img-top" alt="Swimming Vinyl">
+                <div class="card-body">
+                    <button onclick="addCard('interest2')">Test</button>
+                    <p class="card-text">Music</p>
+                </div>
+            </div>
+            <div class="card" id="interest3">
+                <img src="./photography.jpeg" class="card-img-top" alt="photographer"
+                    style="aspect-ratio: 1;">
+                <div class="card-body">
+                    <button onclick="addCard('interest3')">Test</button>
+                    <p class="card-text">photography</p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
